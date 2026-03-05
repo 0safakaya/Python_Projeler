@@ -75,6 +75,7 @@ eklenmesi planlanmaktadır.
 - Obez
 
 ### ▶️ Nasıl Çalıştırılır?
+
 - cd 02_BMI_Calculator
 - python main.py
 
@@ -100,6 +101,7 @@ eklenmesi planlanmaktadır.
 - Güç seviyesi değerlendirme (Zayıf / Orta / Güçlü)
 
 ### ▶️ Nasıl Çalıştırılır?
+
 - cd 03_Sifre_Araci
 - python main.py
 
@@ -110,3 +112,28 @@ eklenmesi planlanmaktadır.
 - Karakter kontrolü
 - Fonksiyonel programlama yapısı
 
+## 4️⃣ Şifreli Not Kasası (Mini Vault)
+
+### 📌 Açıklama
+Kullanıcının notlarını güvenli şekilde saklayabildiği terminal tabanlı bir uygulamadır.  
+Program ilk çalıştırıldığında bir **ana şifre oluşturulur** ve daha sonraki girişlerde bu şifre doğrulanmadan notlara erişilemez. Notlar dosyada **şifrelenmiş şekilde saklanır**.
+
+### 🚀 Özellikler
+- Ana şifre oluşturma ve doğrulama
+- Not ekleme
+- Kayıtlı notları görüntüleme
+- Notların şifreli şekilde saklanması
+- JSON dosyasında veri saklama
+
+### ▶️ Nasıl Çalıştırılır?
+
+cd 04_Sifreli_Not_Kasasi
+python main.py
+
+### 🧠 Kullanılan Konular
+
+- Dosya işlemleri
+- JSON veri yönetimi
+- SHA256 ile şifre hashleme
+- Base64 ile veri şifreleme
+- Fonksiyon yapısı
