@@ -137,3 +137,29 @@ python main.py
 - SHA256 ile şifre hashleme
 - Base64 ile veri şifreleme
 - Fonksiyon yapısı
+
+## 5️⃣ Ülke Bilgi Uygulaması (Country Info)
+
+### 📌 Açıklama
+Kullanıcının girdiği ülke ismine göre dünya genelindeki ülkelerin detaylı verilerini anlık olarak çeken terminal tabanlı bir uygulamadır.  
+Veriler, **REST Countries API** üzerinden canlı olarak alınır ve kullanıcıya düzenli bir formatta sunulur.
+
+### 🚀 Özellikler
+- Canlı veri çekme (`requests` modülü)
+- Detaylı bilgi listeleme (Başkent, Nüfus, Bölge, Para Birimi, Diller)
+- Hata yönetimi (Geçersiz ülke adı kontrolü)
+- Dinamik sorgu döngüsü
+- JSON veri çözümleme
+
+### ▶️ Nasıl Çalıştırılır?
+
+cd 05_Ulke_Bilgi_Uygulamasi
+python main.py
+
+### 🧠 Kullanılan Konular
+
+- API (Application Programming Interface) kullanımı
+- HTTP GET istekleri
+- JSON veri yönetimi
+- Dış kütüphane entegrasyonu
+- Fonksiyon yapısık
